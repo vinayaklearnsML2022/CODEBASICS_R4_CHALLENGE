@@ -19,6 +19,8 @@ SELECT c1.segment, c1.product_count_2020,c2.product_count_2021,(c2.product_count
 FROM cte1 c1
 JOIN cte2 c2
 ON c1.segment=c2.segment
+ORDER BY difference DESC
+
 
 
 
